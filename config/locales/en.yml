@@ -6,6 +6,40 @@ en:
       not_locked: "was not locked"
 
   devise:
+     
+    generic:
+        confirmation: "Are you sure?"
+    sign_in:
+        title: "Sign in"
+        action: "Sign in"
+        with_provider: "Sign in with %{provider}"
+    sign_up:
+        title: "Sign up"
+        action: "Sign up"
+        cancel_account: "Cancel my account"
+        edit:
+            title: "Edit %{resource_name}"
+            action: "update"
+    password:
+        edit:
+            title: "Change your password"
+            action: "Change my password"
+        forgot:
+            link: "Forgot your password?"
+            title: "Forgot Password?"
+            action: "Send me reset password instructions"
+    confirmation:
+        resend:
+            link: "Didn't receive confirmation instructions?"
+            title: "Resend confirmation instructions"
+            action: "Resend confirmation instructions"
+    unlock:
+        resend:
+            link:  "Didn't receive unlock instructions?"
+            title: "Resend unlock instructions"
+            action: "Resend unlock instructions"
+    
+            
     failure:
       unauthenticated: 'You need to sign in or sign up before continuing.'
       unconfirmed: 'You have to confirm your account before continuing.'
