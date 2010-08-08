@@ -24,6 +24,10 @@ en:
         edit:
             title: "Change your password"
             action: "Change my password"
+            password:
+                leave_blank: "leave blank if you don't want to change it"
+            curren_password:
+                 hint: "we need your current password to confirm your changes"
         forgot:
             link: "Forgot your password?"
             title: "Forgot Password?"
